@@ -157,3 +157,7 @@ ul{
 .navbar-nav > li{
   margin-left: 5px !important
 }
+
+.jumbotron > .container > div{
+  margin: 10px !important
+}
