@@ -104,6 +104,10 @@ ul{
   list-style-type: square
 }
 
+ul > li{
+  font-size: 1.5em;  
+}
+
 .support-container > div{
   text-align: center;
   margin: 15px 5px 15px 5px;
