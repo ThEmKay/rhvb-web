@@ -58,7 +58,7 @@ h2{
   font-family: 'Indie Flower';
   color: #fff;
   text-align: center;
-  font-size: 2em
+  font-size: 2.5em !important
 }
 
 .content-box > span{
@@ -119,7 +119,7 @@ ul{
 }
 
 .media-body > ul{
-  font-size: 1.2em
+  font-size: 1em
 }
 
 .support-container > div{
@@ -159,5 +159,5 @@ ul{
 }
 
 .jumbotron > .container > div{
-  margin: 10px !important
+  margin: 3px !important
 }
