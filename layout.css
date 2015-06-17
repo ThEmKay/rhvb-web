@@ -1,0 +1,141 @@
+html, body{
+  height: 100%
+}
+
+body{
+  margin: 0
+}
+
+.container{
+  padding: 0
+}
+
+#start {
+  background-color: #fff;
+  min-height: 100%
+}
+
+#dasprojekt {
+  background-color: teal
+}
+
+#dieapp {
+  background-color: green
+}
+
+#dasteam {
+  background-color: orange
+}
+
+.row{
+  margin: 0
+}
+
+.jumbotron{
+  background-color: #fff;
+  text-align: center;
+  padding: 0 !important
+}
+
+.jumbotron > #subtitle{
+  font-family: 'Indie Flower';
+  font-size: 180%
+}
+
+#btn-learn-more{
+  padding-top: 12px
+}
+
+.content-box > h2{
+  font-family: 'Indie Flower';
+  color: #fff;
+  text-align: center;
+  font-size: 2em
+}
+
+.content-box > span{
+  color: #fff;
+  font-family: 'Calibri';
+  font-size: 1.5em;
+  padding: 5px;
+}
+
+.content-box > table{
+  color: #fff;
+  font-family: 'Calibri';
+  font-size: 1.5em;
+  padding: 5px;
+}
+
+.content-box{
+  margin: 10px 0px 20px 0px;
+  color: #fff
+}
+
+.jumbotron > h1{
+  font-family: 'Pacifico'
+}
+
+.headline{
+  font-family: 'Pacifico';
+  font-size: 5em;
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 10px
+}
+
+.countdown{
+  text-align: center;
+  font-family: 'Pacifico';
+  color: #fff;
+  display: none
+}
+
+.countdown > .count-text{
+  font-size: 2em
+}
+
+.countdown > .count{
+  font-size: 5em
+}
+
+ul{
+  margin: 0;
+  list-style-type: square
+}
+
+.support-container > div{
+  text-align: center;
+  margin: 15px 5px 15px 5px;
+  height: 60px
+}
+
+.support-container > div > img{
+  height: 100%
+}
+
+.thumbnail{
+  text-align: center;
+  background-color: transparent;
+  color: #fff;
+  border: 2px dashed
+}
+
+.thumbnail > img{
+  width: 200px;
+  margin-top: 10px
+}
+
+.caption{
+  text-align: left;
+  color: #fff !important
+}
+
+.caption > ul{
+  padding-left: 15px;
+  margin: 0px 0px 10px 0px
+}
+
+.navbar-nav > li{
+  margin-left: 5px !important
+}
