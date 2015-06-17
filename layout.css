@@ -109,8 +109,7 @@ h2{
 
 ul{
   margin: 0;
-  list-style-type: none;
-  padding: 0
+  list-style-type: square
 }
 
 .media-body > h4{
@@ -119,7 +118,8 @@ ul{
 }
 
 .media-body > ul{
-  font-size: 1em
+  font-size: 1em;
+  list-style-type: square
 }
 
 .support-container > div{
