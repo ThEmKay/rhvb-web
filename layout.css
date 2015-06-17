@@ -39,15 +39,19 @@ body{
 
 .jumbotron > #subtitle{
   font-family: 'Indie Flower';
-  font-size: 180%
+  font-size: 2.5em
 }
 
 #btn-learn-more{
   padding-top: 12px
 }
 
+h1{
+  font-size: 6em !important
+}
+
 h2{
-  font-size: 2.5em
+  font-size: 2.5em !important
 }
 
 .content-box > h2{
@@ -108,8 +112,13 @@ ul{
   list-style-type: square
 }
 
-ul > li{
-  font-size: 1.5em;  
+.media-body > h4{
+  font-size: 1.5em;
+  text-decoration: underline
+}
+
+.media-body > ul{
+  font-size: 1.2em
 }
 
 .support-container > div{
