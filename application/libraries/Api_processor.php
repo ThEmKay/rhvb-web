@@ -7,7 +7,12 @@ class Api_processor{
   public function __construct(){
     $this->oCI =& get_instance();
     if($this->oCI->uri->segment(1) === 'api'){
-      header('Content-Type: application/json; charset=latin-9');
+      if($this->oCI->uri->segment(2) != '' &&
+         $this->oCI->uri->segment(3) != ''){
+            header('Content-Type: application/json; charset=latin-9');
+      }else{
+        redirect();
+      }
     }
   }
   
